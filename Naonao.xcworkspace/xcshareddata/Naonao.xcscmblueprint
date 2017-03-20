@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "726fc6e6-9f57-4f2c-8a49-5e01ed2e1ad2++1531",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "726fc6e6-9f57-4f2c-8a49-5e01ed2e1ad2++1531" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "726fc6e6-9f57-4f2c-8a49-5e01ed2e1ad2++1531" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7399F720-B31A-4152-9292-9966A7AC6913",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "726fc6e6-9f57-4f2c-8a49-5e01ed2e1ad2++1531" : "Naonao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Naonao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Naonao.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/119.29.111.46\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "726fc6e6-9f57-4f2c-8a49-5e01ed2e1ad2++1531"
+    }
+  ]
+}

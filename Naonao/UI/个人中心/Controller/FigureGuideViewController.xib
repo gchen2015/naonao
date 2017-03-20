@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FigureGuideViewController">
+            <connections>
+                <outlet property="labelA" destination="TNT-wg-Yyd" id="SZ7-9D-hLR"/>
+                <outlet property="labelB" destination="3s7-26-MY4" id="OTf-86-t06"/>
+                <outlet property="labelC" destination="9eL-Oq-yBo" id="AeW-fk-hYf"/>
+                <outlet property="labelData" destination="AO1-ZQ-I0G" id="UuA-BS-Qh2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="vLh-vk-Eg4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird_data.png" translatesAutoresizingMaskIntoConstraints="NO" id="TYd-c2-EsI">
+                    <rect key="frame" x="21" y="100" width="51" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird_coupons.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rv8-0s-5be">
+                    <rect key="frame" x="21" y="235" width="55" height="65"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="完善数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNT-wg-Yyd">
+                    <rect key="frame" x="89" y="88" width="142" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="得到现金券" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3s7-26-MY4">
+                    <rect key="frame" x="89" y="237" width="142" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为了给你提供更贴心的服务和找到与你身材相似的挠友，请设置自己的个人身材信息哦~" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AO1-ZQ-I0G" customClass="SHLUILabel">
+                    <rect key="frame" x="89" y="116" width="216" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="GOZ-cQ-3ZL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首次完善个人身材信息将获得50元代金券，个人身材信息可随时修改。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eL-Oq-yBo" customClass="SHLUILabel">
+                    <rect key="frame" x="89" y="265" width="216" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="IWb-JG-qBj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9eL-Oq-yBo" secondAttribute="trailing" constant="15" id="2Ee-iH-Pep"/>
+                <constraint firstItem="AO1-ZQ-I0G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="89" id="BFm-if-lh1"/>
+                <constraint firstItem="AO1-ZQ-I0G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="116" id="Cyf-Ih-aje"/>
+                <constraint firstItem="9eL-Oq-yBo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="265" id="PeM-05-N1u"/>
+                <constraint firstItem="9eL-Oq-yBo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="89" id="ot5-ta-VzU"/>
+                <constraint firstAttribute="trailing" secondItem="AO1-ZQ-I0G" secondAttribute="trailing" constant="15" id="vOx-fA-oLF"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bird_coupons.png" width="55" height="64"/>
+        <image name="bird_data.png" width="50" height="65"/>
+    </resources>
+</document>

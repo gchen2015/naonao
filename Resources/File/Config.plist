@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>payment</key>
+	<array>
+		<dict>
+			<key>titS</key>
+			<string>支付宝支付</string>
+			<key>imgN</key>
+			<string>icon_zifubao_normal.png</string>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>paymentStatus</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>titS</key>
+			<string>微信支付</string>
+			<key>imgN</key>
+			<string>icon_weixing_normal.png</string>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>paymentStatus</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>titS</key>
+			<string>银联手机支付</string>
+			<key>imgN</key>
+			<string>icon_unionpay_normal.png</string>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>paymentStatus</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>titS</key>
+			<string>Apple Pay</string>
+			<key>imgN</key>
+			<string>icon_applepay_normal.png</string>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>paymentStatus</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+	<key>withdraw</key>
+	<array>
+		<dict>
+			<key>titS</key>
+			<integer>50</integer>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>mId</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>titS</key>
+			<integer>100</integer>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>mId</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>titS</key>
+			<integer>200</integer>
+			<key>isSelected</key>
+			<integer>0</integer>
+			<key>mId</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

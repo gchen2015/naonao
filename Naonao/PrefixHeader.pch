@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  Naonao
+//
+//  Created by Richard Liu on 15/11/19.
+//  Copyright © 2015年 深圳市轩腾华兴科技开发有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIConstants.h"
+#import "URLsAndGlobalKeys.h"
+#import "AppDelegate.h"
+#import "Constants.h"
+#import "STJSONSerialization.h"
+#import "Units.h"
+#import "User.h"
+#import "Toast+UIView.h"
+#import "UserLogic.h"
+#import "UIView+Extension.h"
+#import "MTLJSONAdapter.h"
+#import <UMMobClick/MobClick.h>
+#import "NSString+ImageURL.h"
+#import "UIImageView+Extension.h"
+
+
+
+#ifdef DEBUG
+
+#define CLog(...)  NSLog(__VA_ARGS__)
+
+#else
+
+#define CLog(...)
+
+#endif
+
+
+#endif /* PrefixHeader_pch */

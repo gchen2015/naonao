@@ -1,0 +1,100 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HappyDNS (0.3.10)
+  - HPGrowingTextView (1.1)
+  - JGProgressHUD (1.4)
+  - JPush-iOS-SDK (2.2.0)
+  - JSBadgeView (1.4.1)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.0.2)
+  - Meiqia (3.3.2):
+    - Meiqia/MeiqiaSDK (= 3.3.2)
+    - Meiqia/MQChatViewController (= 3.3.2)
+  - Meiqia/MeiqiaSDK (3.3.2)
+  - Meiqia/MQChatViewController (3.3.2):
+    - Meiqia/MeiqiaSDK
+  - MJRefresh (3.1.12)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - Pingpp/Alipay (2.2.9):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.9)
+  - Pingpp/Wx (2.2.9):
+    - Pingpp/Core
+  - pop (1.0.9)
+  - Qiniu (7.1.4):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - UCZProgressView (1.0.2)
+  - UMengAnalytics-NO-IDFA (4.1.5)
+  - UMengUShare/Core (6.0.3):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.0.3)
+  - UMengUShare/Social/QQ (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.0.3):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.0.3):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - HPGrowingTextView
+  - JGProgressHUD
+  - JPush-iOS-SDK
+  - JSBadgeView
+  - Mantle
+  - Masonry
+  - Meiqia
+  - MJRefresh
+  - NJKWebViewProgress
+  - Pingpp/Alipay
+  - Pingpp/Wx
+  - pop
+  - Qiniu
+  - UCZProgressView
+  - UMengAnalytics-NO-IDFA
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  JPush-iOS-SDK: 44ae7a71c04ff0b08031451d985993ece83acadf
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Meiqia: 0c317337a9a784bac1d87562986bfb07f59c7f93
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  Pingpp: e069eec830970aa41640a6eeceb86ac6917e98b4
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Qiniu: a4c962782035ee25b9da3e195181d8c384bb75be
+  UCZProgressView: 55836987c15ee6efb7cd6dfe297556602ee46c94
+  UMengAnalytics-NO-IDFA: f1b08b540eba6ebad044a574cae6d988cf40cfda
+  UMengUShare: f231fc086d789d4e560a5090dcc13a2db15c686d
+
+PODFILE CHECKSUM: cc0d48bbb94736ff3834befb5a80b61364a65954
+
+COCOAPODS: 1.2.0.beta.1
